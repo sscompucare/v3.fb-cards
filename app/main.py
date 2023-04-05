@@ -4,6 +4,7 @@ import requests
 import os
 
 token = os.getenv("token")
+os.mkdir("cards")
 
 request = requests.get("https://sscompucare-api.onrender.com/files", headers={"Cookie": f"token={token}"})
 
@@ -56,7 +57,7 @@ for file in files:
 
     draw_filename.multiline_text((258,200), "\n".join(lines), font=font, fill='black')
 
-    base.save("./cards/" + file["id"] + ".png")
+    base.save("cards/" + file["id"] + ".png")
     print("Completed.")
 
 print(f"✅ {len(files)} cards generated succesfully.")
