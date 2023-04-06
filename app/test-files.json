@@ -1,0 +1,15 @@
+[
+    {
+        "id": "123",
+        "title": "A short title",
+        "thumbnailUrl": "https://sscompucare-assets.netlify.app/lenovo-logo.png",
+        "status": "PUBLIC"
+    },
+    {
+        "id": "456",
+        "title": "HP Notebooks, plotters and scanners",
+        "thumbnailUrl": "https://sscompucare-assets.netlify.app/hp-logo.png",
+        "status": "PUBLIC"
+    }
+    
+]
